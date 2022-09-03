@@ -6,7 +6,10 @@ export default function UseRefHook(){
     const inputRef2 = useRef(null);
 
     const logInput = () => console.log(inputRef.current.value);
-    const focuseOn = () => inputRef2.current.focus();
+    const focuseOn = () => {
+        inputRef2.current.focus();
+        inputRef2.current.value = "";
+    }
 
     return (
         <>
