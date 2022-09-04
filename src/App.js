@@ -3,6 +3,7 @@ import './App.css';
 import UseReducerHook from './components/useReducerHook.js';
 import UseRefHook from './components/useRefHook';
 import Parent from './components/useImperativeHandle/Parent.js';
+import UseContextHook from './components/useContext/useContextHook.js';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <UseRefHook />
       <br/>
       <Parent />
+      <br/>
+      <UseContextHook />
     </div>
   );
 }
