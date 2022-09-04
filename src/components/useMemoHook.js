@@ -25,6 +25,7 @@ export default function UseMemoHook(){
         return longestName;
     }
 
+    //we can store the value that comes from the function 
     const getLongestname = useMemo(() => findLongestName(data), [data])
 
     

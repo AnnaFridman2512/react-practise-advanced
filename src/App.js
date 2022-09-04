@@ -5,7 +5,7 @@ import UseRefHook from './components/useRefHook';
 import Parent from './components/useImperativeHandle/Parent.js';
 import UseContextHook from './components/useContext/useContextHook.js';
 import UseMemoHook from './components/useMemoHook.js';
-
+import UseCallbackHook from './components/useCalbackHook/UseCalbackHook.js';
 function App() {
   return (
     <div className="App">   
@@ -17,6 +17,8 @@ function App() {
       <UseContextHook />
       <br/>
       <UseMemoHook />
+      <br/>
+      <UseCallbackHook />
     </div>
   );
 }
